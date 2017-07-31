@@ -2,7 +2,7 @@ package codesquad_1;
 
 import java.util.ArrayList;
 
-public class Main {
+public class Simpan {
 	public static int Strike(ArrayList ballList, ArrayList computerList) {
 
 		int strike = 0;
@@ -29,16 +29,6 @@ public class Main {
 		}
 
 		return ball;
-	}
-
-	public static void main(String args[]) {
-
-		CreateAnswer ca = new CreateAnswer();
-
-		ArrayList testList = ca.numbers();
-
-		System.out.println(testList.get(2));
-
 	}
 
 }
